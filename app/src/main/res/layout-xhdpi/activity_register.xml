@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_dash_bg"
+    android:orientation="vertical">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        tools:context="com.moolahmobile.moolahsystem.RegisterActivity">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="@dimen/_55sdp"
+          android:layout_gravity="center"
+          android:layout_marginTop="@dimen/_35sdp"
+          android:clickable="true"
+
+          android:focusable="true"
+          android:fontFamily="@font/roboto"
+          android:padding="@dimen/_8sdp"
+          android:text="Register"
+          android:textAlignment="center"
+          android:textColor="@android:color/white"
+          android:textSize="40sp"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="@dimen/_30sdp"
+
+          android:layout_gravity="center"
+          android:clickable="true"
+          android:focusable="true"
+          android:fontFamily="@font/roboto"
+          android:padding="@dimen/_8sdp"
+          android:text="Please Enter Your Login Information."
+          android:textColor="@android:color/white"
+          android:textSize="15sp" />
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/firstname"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_person_black_24dp" />
+
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/firstname"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="First Name"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_firstname"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/lastname"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_person_black_24dp" />
+
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/lastname"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Last Name"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_lastname"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/userimage"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_person_black_24dp" />
+
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/userimage"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Username [min 8 characters]"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_username"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/gender"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_phone_black_24dp" />
+
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/gender"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Phone"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_phone"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/genderr"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_gender" />
+
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/genderr"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Gender"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_gender"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_gender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/dateofbirth"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_date_range_black_24dp" />
+
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/dateofbirth"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Date of Birth"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_birthday"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/email"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_email_black_24dp" />
+
+          <TextView
+              android:id="@+id/textemail"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/email"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Email"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_email"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/unlock"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_lock_open_black_24dp" />
+
+          <TextView
+              android:id="@+id/textemail"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/unlock"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Password"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_password"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/confirm"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_lock_open_black_24dp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/confirm"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Confirm Password"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_confirm"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_conf_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_48sdp"
+          android:layout_marginLeft="@dimen/_30sdp"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:layout_marginRight="@dimen/_30sdp"
+          android:background="@drawable/btnbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <ImageView
+              android:id="@+id/invited"
+              android:layout_width="40dp"
+              android:layout_height="40dp"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="@dimen/_15sdp"
+              android:src="@drawable/ic_person_black_24dp" />
+
+          <TextView
+              android:id="@+id/textemail"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/_32sdp"
+              android:layout_gravity="center"
+              android:layout_toRightOf="@+id/invited"
+              android:clickable="true"
+              android:focusable="true"
+              android:fontFamily="@font/roboto"
+              android:padding="@dimen/_8sdp"
+              android:text="Use That Invited"
+              android:textAlignment="center"
+              android:textColor="@android:color/white"
+              android:textSize="15sp" />
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/input_layout_invited_by"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginStart="@dimen/_47sdp"
+              android:layout_marginLeft="@dimen/_30sdp"
+              android:padding="@dimen/_4sdp"
+              android:theme="@style/RegisterEditTextHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_invited_by"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:backgroundTint="#091926"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:theme="@style/InputTextEditText" />
+
+          </com.google.android.material.textfield.TextInputLayout>
+        </RelativeLayout>
+      </FrameLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/btn_green"
+            android:clickable="true"
+            android:elevation="7dp"
+            android:focusable="true"
+            android:fontFamily="@font/roboto"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/input_layout_invited_by"
+            app:layout_constraintStart_toStartOf="@+id/input_layout_invited_by"
+            app:layout_constraintTop_toBottomOf="@+id/input_layout_invited_by" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/alreadyAUserView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_24sdp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="@dimen/_24sdp"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/roboto"
+            android:padding="@dimen/_8sdp"
+            android:text="Already a user?"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btn_signup"
+            app:layout_constraintStart_toStartOf="@+id/btn_signup"
+            app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+
+      </LinearLayout>
+
+
+    </LinearLayout>
+  </ScrollView>
+  <com.github.ybq.android.spinkit.SpinKitView
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/spin_kit"
+      style="@style/SpinKitView.ChasingDots"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_gravity="center"
+      android:visibility="gone"
+      app:SpinKit_Color="@color/yellow" />
+</RelativeLayout>
