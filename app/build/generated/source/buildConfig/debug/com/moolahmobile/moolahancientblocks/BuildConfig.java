@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.company.game;
+package com.moolahmobile.moolahancientblocks;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

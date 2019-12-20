@@ -7,7 +7,7 @@ import android.text.SpannableString
 import android.text.format.DateFormat
 import android.text.style.ForegroundColorSpan
 import androidx.core.content.ContextCompat
-import com.company.game.R
+import com.moolahmobile.moolahancientblocks.R
 
 import java.util.*
 

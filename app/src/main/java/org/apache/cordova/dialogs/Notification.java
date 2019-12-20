@@ -19,12 +19,10 @@
 package org.apache.cordova.dialogs;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 //import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.res.Resources;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -33,7 +31,7 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.company.game.MainActivity;
+import com.moolahmobile.moolahancientblocks.MainActivity;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;

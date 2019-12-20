@@ -3,7 +3,7 @@ package com.moolahmobile.moolahsystem.common.extension
 import android.app.Activity
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.company.game.R
+import com.moolahmobile.moolahancientblocks.R
 import com.google.android.material.snackbar.Snackbar
 
 import com.tapadoo.alerter.Alerter

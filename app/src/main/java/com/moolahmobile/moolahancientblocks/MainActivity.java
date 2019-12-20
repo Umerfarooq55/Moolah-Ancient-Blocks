@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.company.game;
+package com.moolahmobile.moolahancientblocks;
 
 import android.os.Bundle;
 

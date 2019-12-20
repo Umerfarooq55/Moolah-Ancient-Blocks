@@ -1,4 +1,4 @@
-package com.company.game.common;
+package com.moolahmobile.moolahancientblocks.common;
 
 import android.content.Context;
 import android.content.SharedPreferences;

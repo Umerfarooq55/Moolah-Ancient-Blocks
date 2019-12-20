@@ -1,4 +1,4 @@
-package com.company.game
+package com.moolahmobile.moolahancientblocks
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

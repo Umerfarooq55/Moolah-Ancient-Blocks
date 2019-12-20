@@ -1,4 +1,4 @@
-package com.company.game.threading;
+package com.moolahmobile.moolahancientblocks.threading;
 
 public class PriorityRunnable implements Runnable {
 

@@ -1,4 +1,4 @@
-package com.company.game;
+package com.moolahmobile.moolahancientblocks;
 
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.renderscript.RenderScript;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -19,11 +18,11 @@ import androidx.annotation.DrawableRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.company.game.common.SharedPrefsUtils;
-import com.company.game.common.Utils;
-import com.company.game.threading.DefaultExecutorSupplier;
-import com.company.game.threading.Priority;
-import com.company.game.threading.PriorityRunnable;
+import com.moolahmobile.moolahancientblocks.common.SharedPrefsUtils;
+import com.moolahmobile.moolahancientblocks.common.Utils;
+import com.moolahmobile.moolahancientblocks.threading.DefaultExecutorSupplier;
+import com.moolahmobile.moolahancientblocks.threading.Priority;
+import com.moolahmobile.moolahancientblocks.threading.PriorityRunnable;
 import com.github.ybq.android.spinkit.SpinKitView;
 import com.github.ybq.android.spinkit.sprite.Sprite;
 import com.github.ybq.android.spinkit.style.DoubleBounce;

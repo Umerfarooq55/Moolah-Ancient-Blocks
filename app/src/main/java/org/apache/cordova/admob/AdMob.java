@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
 
-import com.company.game.MainActivity;
+import com.moolahmobile.moolahancientblocks.MainActivity;
 import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.MobileAds;
