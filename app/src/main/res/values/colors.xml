@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="transparent_white">#48ffffff</color>
+    <color name="transparent_blue">#8b0101a1</color>
+    <color name="transparent_black">#dc000000</color>
+    <color name="menu_black">#000000</color>
+    <color name="mulaah_light_green">#bcdb70</color>
+    <color name="dark_grey_mulaah">#444444</color>
+
+    <color name="transparent_black2">#64000000</color>
+
+    <color name="Mulaah_green">#3a8740</color>
+    <color name="colorAccent">#3a8740</color>
+    <color name="mid_blue">#091824</color>
+    <color name="mid_blue_3">#081824</color>
+    <color name="new_mulaah_green">#9fcc3a</color>
+    <color name="mid_blue_2">#091723</color>
+    <color name="disabled_font_color">#414d57</color>
+    <color name="offset_dark">#112333</color>
+    <color name="dash_details_bg_border">#dde7f1</color>
+    <color name="new_mulaah_green_lt">#9fcb39</color>
+    <color name="white">#ffffff</color>
+    <color name="inactive_tab_txt_color">#929ba5</color>
+    <color name="dashboard_menu_bg_color">#0b1d2b</color>
+    <color name="menu_splitter_color">#112434</color>
+    <color name="menu_label_2">#607b91</color>
+    <color name="input_bg_color">#12212d</color>
+    <color name="donations_site_lable_color1">#607b91</color>
+    <color name="activate_device_bg">#a0091723</color>
+    <color name="tutorial_bg_color">#99091723</color>
+    <color name="transparent_overlay">#59000000</color>
+    <color name="simple_transparent_white">#aaffffff</color>
+    <color name="color_white">#ffffffff</color>
+
+
+    <!-- Screens background color-->
+    <color name="color_email">#366FAA</color>
+    <color name="yellow">#FFD600</color>
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+
+    <!-- dots inactive colors -->
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+    <color name="dot_dark_screen1">#2B2A2A</color>
+    <color name="dot_dark_screen2">#2B2A2A</color>
+
+    <!-- dots active colors -->
+    <color name="dot_dark_screen3">#2B2A2A</color>
+    <color name="dot_dark_screen4">#2B2A2A</color>
+    <color name="dot_light_screen1">#000000</color>
+    <color name="dot_light_screen2">#000000</color>
+
+    <color name="dot_light_screen3">#000000</color>
+
+    <color name="dot_light_screen4">#000000</color>
+</resources>

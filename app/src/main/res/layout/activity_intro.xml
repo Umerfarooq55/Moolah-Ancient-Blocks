@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_dash_bg"
+    tools:context=".IntroActivity">
+<ImageView
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_100sdp"
+    android:id="@+id/icon"
+    android:layout_marginTop="40dp"
+    android:background="@drawable/moolah_mobile_icon_large"
+    android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Moolah Ancient Blocks with Moolah Inside"
+        android:textSize="@dimen/_20sdp"
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_below="@+id/icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Platform that lets you Earn Rewards as you play
+"
+        android:textSize="@dimen/_20sdp"
+        android:gravity="center"
+        android:id="@+id/heading"
+        android:layout_margin="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How Does It Work \n
+-	Sign In With Moolah Mobile or create an account if you don’t have one\n
+-	Play games with Mobile Advertisements\n
+-	Earn Rewards as you play\n
+-	Redeem rewards for gift cards and more in your Moolah Mobile Homescreen"
+        android:textSize="@dimen/_14sdp"
+        android:gravity="center"
+        android:id="@+id/info"
+        android:layout_margin="@dimen/_2sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/heading"/>
+    <Button
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:text="Play"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_below="@+id/info"
+        android:background="@color/white"
+        android:id="@+id/play"/>
+</RelativeLayout>

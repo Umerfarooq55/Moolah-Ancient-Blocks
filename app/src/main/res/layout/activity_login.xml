@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/new_dash_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/loginparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:clickable="true"
+
+                android:focusable="true"
+                android:fontFamily="@font/roboto"
+                android:padding="@dimen/_8sdp"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/btn_login"
+                app:layout_constraintStart_toStartOf="@+id/btn_login"
+                app:layout_constraintTop_toBottomOf="@+id/btn_login"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/roboto"
+                android:padding="@dimen/_8sdp"
+                android:text="Please Enter Your Login Information."
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/btn_login"
+                app:layout_constraintStart_toStartOf="@+id/btn_login"
+                app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_52sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:background="@drawable/btnbackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/email"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:src="@drawable/ic_email_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/textemail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/email"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:fontFamily="@font/roboto"
+                        android:padding="@dimen/_8sdp"
+                        android:text="Email"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/input_layout_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_47sdp"
+                        android:layout_marginLeft="@dimen/_40sdp"
+
+                        android:padding="@dimen/_4sdp"
+                        android:theme="@style/RegisterEditTextHint">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:backgroundTint="#091926"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp"
+                            android:theme="@style/InputTextEditText" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:background="@drawable/btnbackground">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/openlock"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:src="@drawable/ic_lock_open_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/textepasword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_32sdp"
+                        android:layout_gravity="center"
+                        android:layout_toRightOf="@+id/openlock"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:fontFamily="@font/roboto"
+                        android:padding="@dimen/_8sdp"
+                        android:text="Password"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp" />
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/input_layout_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_47sdp"
+                        android:layout_marginLeft="@dimen/_40sdp"
+
+                        android:padding="@dimen/_4sdp"
+                        android:theme="@style/RegisterEditTextHint"
+                        >
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:backgroundTint="#091926"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp"
+                            android:theme="@style/InputTextEditText" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+
+
+            </FrameLayout>
+            <TextView
+                android:id="@+id/txtForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/roboto"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/forgot_your_password"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@+id/txtRegister"
+                app:layout_constraintStart_toStartOf="@+id/txtRegister"
+                app:layout_constraintTop_toBottomOf="@+id/txtRegister" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/btn_green"
+                android:fontFamily="@font/roboto"
+                android:onClick="@{clickHandler::onClick}"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/input_layout_password"
+                app:layout_constraintStart_toStartOf="@+id/input_layout_password"
+                app:layout_constraintTop_toBottomOf="@+id/input_layout_password" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:background="#091926">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+
+                    <ImageView
+
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginRight="@dimen/_18sdp"
+                        android:src="@drawable/ic_domino" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:fontFamily="@font/roboto"
+                        android:padding="@dimen/_8sdp"
+                        android:text="The Mobile Rewards System. \n Earn Rewards for using our custom /n Home Screens,Games and Apps."
+                        android:textAlignment="center"
+                        android:textColor="@color/new_mulaah_green"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="@+id/txtRegister"
+                        app:layout_constraintStart_toStartOf="@+id/txtRegister"
+                        app:layout_constraintTop_toBottomOf="@+id/txtRegister" />
+
+                    <TextView
+                        android:id="@+id/register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:fontFamily="@font/roboto"
+                        android:padding="@dimen/_8sdp"
+                        android:text="Register "
+                        android:textAlignment="center"
+                        android:textColor="@color/new_mulaah_green"
+                        android:textSize="25sp"
+                        app:layout_constraintEnd_toEndOf="@+id/txtRegister"
+                        app:layout_constraintStart_toStartOf="@+id/txtRegister"
+                        app:layout_constraintTop_toBottomOf="@+id/txtRegister" />
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+
+
+            <TextView
+                android:id="@+id/txtRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/roboto"
+                android:padding="@dimen/_8sdp"
+                android:text="@string/don_t_have_an_account"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/btn_login"
+                app:layout_constraintStart_toStartOf="@+id/btn_login"
+                app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+
+
+
+        </LinearLayout>
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.ChasingDots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:SpinKit_Color="@color/yellow" />
+    </RelativeLayout>
+</ScrollView>
+

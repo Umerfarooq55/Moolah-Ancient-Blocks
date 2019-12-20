@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomeparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/constrain"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/video_action_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/screen_preview"
+            android:layout_margin="@dimen/_18sdp"
+            android:fontFamily="@font/roboto"
+            android:onClick="@{clickHandler::onClick}"
+            android:text="The Mobile Rewards System. "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/more_details_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video_action_link"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:fontFamily="@font/roboto"
+            android:onClick="@{clickHandler::onClick}"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/txtWelcome"
+            app:layout_constraintStart_toStartOf="@+id/txtWelcome"
+            app:layout_constraintTop_toBottomOf="@+id/video_action_link" />
+
+
+        />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/constrain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_dash_bg"
+
+        android:fitsSystemWindows="true"
+        tools:context="com.moolahmobile.moolahsystem.activity.MulaahWelcomeActivity">
+
+        <ImageView
+            android:id="@+id/screen_preview"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="0dp"
+
+            android:contentDescription="@string/welcome_img1"
+            android:onClick="@{clickHandler::onClick}"
+            android:src="@drawable/ic_domino"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="157dp" />
+
+        <Button
+            android:id="@+id/choose_theme_button"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:background="@drawable/mulaah_dash_buttons_bg"
+            android:elevation="2dp"
+
+            android:fontFamily="@font/roboto"
+            android:onClick="@{clickHandler::onClick}"
+            android:text="Play"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/welcometext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:fontFamily="@font/roboto"
+            android:onClick="@{clickHandler::onClick}"
+            android:text="@string/welcome_header_text"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

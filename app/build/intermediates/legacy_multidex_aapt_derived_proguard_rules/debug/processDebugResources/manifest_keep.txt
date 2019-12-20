@@ -1,0 +1,4 @@
+# Referenced at C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:24
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:24
+-keep class androidx.multidex.MultiDexApplication { <init>(); }

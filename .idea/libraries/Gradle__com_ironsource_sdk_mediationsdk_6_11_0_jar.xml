@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ironsource.sdk:mediationsdk:6.11.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ironsource.sdk/mediationsdk/6.11.0/7d4733f53fdc94cedb039b2e70a0f31158378bbd/mediationsdk-6.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ironsource.sdk/mediationsdk/6.11.0/4c72fece32885a55930e883d3b23812b1a10b66d/mediationsdk-6.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="ios_app_footer_size">36dp</dimen>
+    <dimen name="grid_icon_sz_sm">16dp</dimen>
+    <dimen name="ios_grid_icon_sz_sm">8dp</dimen>
+    <dimen name="grid_spacing">2dp</dimen>
+
+    <dimen name="reloads_number_inputs_ht">56dp</dimen>
+    <dimen name="reloads_header_label_margin">16dp</dimen>
+    <dimen name="reloads_header_label_text_size">16sp</dimen>
+    <dimen name="reloads_input_text_size">16sp</dimen>
+
+
+    <dimen name="reloads_country_code_select_font_size">10sp</dimen>
+
+    <dimen name="simple_app_view_padding">24dp</dimen>
+    <dimen name="simple_center_margin">24dp</dimen>
+
+    <dimen name="ddd">1</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+</resources>

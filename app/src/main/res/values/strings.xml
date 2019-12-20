@@ -1,0 +1,497 @@
+<resources>
+
+    <string name="app_name">Moolah Ancient Blocks</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="header_name">Moolah Mobile</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="peanutlab_app_id">9508</string>
+    <string name="peanutlab_security_key">adb911a95523f5e75cb89019d1e317e3</string>
+
+    <string name="cash_out_pg_terms_disclaimer_txt">I understand that to receive money from Moolah Mobile, I must have a valid PayPal account and that the PayPal account shown above is my own and is eligible to receive funds into. I also am in accordance with all rules, regulations and guidelines found in the Moolah Mobile Terms and Conditions.</string>
+
+    <string name="no_invite_code_link_string">Do you have an Moolah Mobile Invite Code?\n(Click here for details)</string>
+
+    <string name="permission_contacts_rationale">Contacts permissions are needed to demonstrate access.</string>
+
+    <string name="main_background_imageview">main_background_imageview</string>
+
+    <string name="oranges_folder_theme">oranges_folder_theme</string>
+
+    <string name="bk_btn">bk_btn</string>
+
+    <string name="header_right">Header Right Holder</string>
+
+    <string name="invite_code">Enter Your Invite Code</string>
+    <string name="invite_code_label">Invite Code</string>
+    <string name="skip">Skip</string>
+    <string name="new_password_hint">New Password [min. 6 characters]</string>
+    <string name="confirm_new_password_hint">Confirm New Password</string>
+    <string name="back">Back</string>
+    <string name="back_btn">back_btn</string>
+    <string name="messages">Messages</string>
+    <string name="contacts">Contacts</string>
+    <string name="internet">Internet</string>
+    <string name="camera">Camera</string>
+    <string name="calendar">Calendar</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="invite_by">Invited by</string>
+    <string name="next">Next</string>
+    <string name="finish_sign_up">Finish Sign up</string>
+    <string name="_1_of_2">1 of 2</string>
+    <string name="_2_of_2">2 of 2</string>
+    <string name="dashboard_menu_btn">dashboard_menu_btn</string>
+    <string name="mulaah_dashboard_headr_icon">moolah_mobile_dashboard_headr_icon</string>
+    <string name="mulaah_wallet_icon">moolah_mobile_wallet_icon</string>
+    <string name="_0">0</string>
+    <string name="earned_mulaah_icon">earned_moolah_mobile_icon</string>
+    <string name="your_earnings">Your Rewards</string>
+    <string name="cashout_mulaah_btn">cashout_moolah_mobile_btn</string>
+    <string name="store">Store</string>
+    <string name="stop_video"><u>Stop Video</u></string>
+    <string name="click_here_to_register_"><u>Click Here To Sign Up Or Login</u></string>
+    <string name="send_token_deactivated">send_token_deactivated</string>
+    <string name="send_token">Send Token</string>
+    <string name="donate_mulaah_btn">donate_mulaah_btn</string>
+    <string name="donate">Donate</string>
+    <string name="want_to_earn_even_more_mulaah">Want to earn even more Moolah Mobile?</string>
+    <string name="complete_offers_amp_surveys"><![CDATA[Complete Offers & Surveys]]></string>
+    <string name="universe_bg_img">universe_bg_img</string>
+
+    <string name="app_icon">app_icon</string>
+    <string name="app_bg">app_bg</string>
+    <string name="name">Name</string>
+    <string name="orange_bg_shape">orange_bg_shape</string>
+    <string name="orange_folder_bg">orange_folder_bg</string>
+    <string name="reward_icon">reward_icon</string>
+    <!--<string name="complete_offers_amp_surveys"><![CDATA[More Offers & Surveys coming soon]]></string>-->
+    <string name="_20_paypal_gift_card">$20 PayPal Gift Card</string>
+    <string name="visit_their_site">Visit their site:</string>
+    <string name="current_exchange_200k_m">Current Exchange: ~200k M!</string>
+    <string name="menu_user_profile_bg">menu_user_profile_bg</string>
+    <string name="menu_placeholder_user_profile_img">menu_placeholder_user_profile_img</string>
+    <string name="username">Username</string>
+    <string name="dashboard">My Digital Wallet</string>
+    <string name="update_icon">update_icon</string>
+    <string name="update_mulaah">Update Moolah Mobile</string>
+    <string name="customize_menu_btn">customize_menu_btn</string>
+    <string name="customize_mulaah">Customize</string>
+    <string name="how_to_menu_btn">how_to_menu_btn</string>
+    <string name="how_to">Tips</string>
+    <string name="promos_menu_btn">promos_menu_btn</string>
+    <string name="lockscreen_activate_bar_text">Activate Lockscreen Ad</string>
+    <string name="m_codes_amp_promos"><![CDATA[M! Refills]]></string>
+    <string name="feedback_menu_btn">feedback_menu_btn</string>
+    <string name="send_feedback">Feedback</string>
+    <string name="contacts_menu_btn">contacts_menu_btn</string>
+    <string name="invite_contacts">Invite Contacts</string>
+    <string name="settings_menu_btn">settings_menu_btn</string>
+    <string name="device_settings">Device Settings</string>
+    <string name="terms_menu_btn">terms_menu_btn</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="faq_menu_btn">faq_menu_btn</string>
+    <string name="f_a_q">F.A.Q.</string>
+    <string name="mulaah_promos">Moolah Mobile Promos</string>
+    <string name="mulaahicon">moolahmobileicon</string>
+    <string name="lockscreen_left">lockscreen_left</string>
+    <string name="lock_slide_view">lock_slide_view</string>
+    <string name="active_pg_indicator">active_pg_indicator</string>
+    <string name="inactive_pg_indicator">inactive_pg_indicator</string>
+    <string name="homescreen_welcome">homescreen_welcome</string>
+    <string name="search_apps">Search apps…</string>
+    <string name="add_to_home_screen_disclaimer">Choose an app to add to your Home Screen.\n(Swipe or Click Back to Cancel)</string>
+    <string name="simple_home_screen_cancel_disclaimer">Choose where you want to place your app.\n(Or Click Here to Cancel)</string>
+    <string name="claim_your_paypal_reward">Claim Your PayPal Reward</string>
+    <string name="your_current_account_email">Your Current Account Email:</string>
+    <string name="your_confirmed_paypal_email_is_required">Your confirmed PayPal email is required to receive money from Moolah Mobile.</string>
+    <string name="sample_email">user@mail.com</string>
+    <string name="paypal_email">PayPal Email</string>
+    <string name="cancel_paypal_email_input">cancel_payPal_email_input</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_paypal_disclaimer">Before you can cash out, you need to confirm that the above email is your verified Pay Pal email. If so click confirm below.</string>
+    <string name="valid_paypal_confirm_text">Not sure if you have a valid confirmed PayPal account? Click Here to Visit PayPal.com.</string>
+    <string name="m_code_optional">M! Refill Code (optional)</string>
+    <string name="send_reg_btn">send_reg_btn</string>
+    <string name="what_are_m_codes">What are M! Refills?</string>
+    <string name="cash_out_amount_">Cash Out Amount:</string>
+    <string name="send_paypal_pack">Send PayPal Pack</string>
+    <string name="claim_reward">Claim Reward</string>
+    <string name="welcome_header_text">Welcome To Moolah Ancient Blocks</string>
+    <string name="welcome_img1">welcome_img_1</string>
+    <string name="learn_more_link"><u></u></string>
+    <string name="more_details_link"><u>Learn More About Moolah Mobile</u></string>
+    <string name="lets_get_started">Let\'s Get Started.</string>
+    <string name="enter_folder_name">Enter folder name</string>
+    <string name="close_drawer">closeDrawer</string>
+    <string name="your_feedback">How Can you Improve?</string>
+    <string name="thanks_for_your_feedback">Thanks for your suggestion</string>
+    <string name="m_codes">M! Refill Code</string>
+    <string name="what_are_m_codes_description">M! Refills are used to help you earn more Moolah Mobile. Either by giving you a booster or giving you some extra Moolah Mobile instantly!</string>
+    <string name="enter_your_m_code">Enter Your M! Refill Code</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="update_password">Update Password</string>
+    <string name="update">Update</string>
+    <string name="customize_your_device">Choose Your Home Screen</string>
+    <string name="universe_overlay">universe_01_overlay</string>
+    <string name="orange_overlay">orange_overlay</string>
+    <string name="simple_overlay">simple_overlay</string>
+    <string name="wallpapers_icon_cust_mod">wallpapers_icon</string>
+    <string name="icons_icon_cust_mod">icons_icon</string>
+    <string name="layout_icon_cust_mod">layout_icon</string>
+    <string name="leavedefault_overlay_desc">leavedefault_overlay</string>
+    <string name="universe01_bg">universe01_bg</string>
+    <string name="orange_bg_desc">orange01_bg</string>
+    <string name="loading_your_theme">Updating Your Home Screen…</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="mulaah_password">Moolah Mobile Password</string>
+    <string name="submit_password_btn_desc">submit_password_btn</string>
+    <string name="welcome_to_the_mulaah_dashboard">Welcome to the Moolah Mobile</string>
+    <string name="mulaah_walk_thru_text_1">Moolah Mobile Is A Digital Wallet And Mobile Homescreen That Refills Itself!</string>
+    <string name="mulaah_walk_thru_text_2">Moolah Mobile Has a Discount Store Where Users Can Buy Prepaid Top-Ups, Themes, Gift Cards And More!</string>
+    <string name="mulaah_walk_thru_text_3">Earn M! Whenever You See Ads, Complete Surveys, Or Use M! Refills Cards!</string>
+    <string name="welcome_circle_selected_desc">welcome_circle_selected</string>
+    <string name="welcome_circle_deactivated_desc">welcome_circle</string>
+    <string name="request_access">Request Access</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email">Your Email</string>
+    <string name="waiting_list_thanks">Thanks for taking the time to request access to our waiting list for Moolah Mobile. Stay on the look out for emails from us keeping you updated.</string>
+    <string name="send">Send</string>
+    <string name="unlock_mulaah">UNLOCK MOOLAH MOBILE</string>
+    <string name="enter_invite_code">Enter Unlock Code</string>
+    <string name="enter_invite_code_info">Enter your exclusive invite code for access to Moolah Mobile. [More Info]</string>
+    <string name="submit_invite_code">Submit Invite Code</string>
+    <string name="don_t_have_an_invite_code">Don\'t Have An Invite Code?</string>
+    <string name="learn_about_mulaah"><u>Learn About Moolah Mobile</u></string>
+    <string name="change_launcher">Change Launcher</string>
+    <string name="unlocking_mulaah">Unlocking Moolah Mobile…</string>
+    <string name="starting_mulaah">Starting Moolah Mobile…</string>
+    <string name="chrome">Chrome</string>
+    <string name="music">Music</string>
+    <string name="payPal_reward_amount">PayPal Reward Amount:</string>
+    <string name="premium_themes_coming_soon">Premium Moolah Mobile Themes\nComing Soon!</string>
+    <string name="reward_cost_25k">Reward Cost: 25k M!</string>
+    <string name="_10_payPal_pack">$15 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_20_payPal_pack">$25 Amazon Gift Card With verified Amazon Account</string>
+    <string name="atlanta_mission">Atlanta Mission</string>
+    <string name="atlanta_mission_site">www.atlantamission.org</string>
+    <string name="covenant_house_ga">Covenant House of GA</string>
+    <string name="covenant_house_ga_site">www.covenanthousega.org</string>
+    <string name="ic_menu_edit">ic_menu_edit</string>
+    <string name="join_waiting_list">Join Waiting List</string>
+    <string name="country_code_icon">country_code_icon</string>
+    <string name="check_number">Check Number</string>
+    <string name="mobile_prepaid_plan_reload">Reload A Mobile Prepaid Plan</string>
+    <string name="phone_number_to_recharge">Prepaid Phone Number</string>
+    <string name="promos_bundles">Want to see carrier promos and bundles? \nClick Here.</string>
+    <string name="us">US</string>
+    <string name="choose_a_carrier">Choose A Plan</string>
+    <string name="click_here_for_m_conversion_rate">M! conversion rate.</string>
+    <string name="please_wait_while_we_ncheck_your_number">Using your moolah mobile to pay your phone bill... one second</string>
+    <string name="current_mulaah_convert_rate">Current Moolah Mobile Convert Rate:</string>
+    <string name="_100k">100k</string>
+    <string name="_10">$10</string>
+    <string name="create_password">Create Account Password</string>
+    <string name="cancel"><u>Cancel</u></string>
+    <string name="close_tips_btn">close_tips_btn</string>
+    <!--<string name="please_wait_while_we_ncheck_your_number">Please Wait While we\nCheck your Number…</string>-->
+    <string name="theme_bg_customize_module">theme_bg_customize_module</string>
+    <string name="theme_preview_view_cust_module">theme_preview_view_cust_module</string>
+    <string name="theme_title_cust_mod">theme_title_cust_mod</string>
+    <string name="digital_wallet_tutorial">digital_wallet_tutorial</string>
+    <string name="only_registered_mulaah_users_can_earn_m">Only Registered Moolah Mobile Users Can Earn M!</string>
+    <string name="all_apps_tutorial">all_apps_tutorial</string>
+    <string name="choose_a_wallpaper">Choose A Wallpaper</string>
+    <string name="active">Active</string>
+    <string name="equal_sign">=</string>
+    <string name="you_have">You Have</string>
+    <string name="choose_your_simple_home_screen_apps">Choose Your Simple\nHome Screen Apps</string>
+    <string name="log_out">Close Moolah Mobile</string>
+    <string name="wifi">Wifi</string>
+    <string name="mobile_data">Mobile Data</string>
+    <string name="internet_speed">3.32 kbps</string>
+    <string name="_5_amazon_pack">$5 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_10_amazon_pack">$10 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_15_amazon_pack">$15 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_20_amazon_pack">$20 Amazon Gift Card With verified Amazon Account</string>
+
+    <string name="_25_amazon_pack">$25 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_30_amazon_pack">$30 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_35_amazon_pack">$35 Amazon Gift Card With verified Amazon Account</string>
+
+    <string name="_40_amazon_pack">$40 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_45_amazon_pack">$45 Amazon Gift Card With verified Amazon Account</string>
+    <string name="_50_amazon_pack">$50 Amazon Gift Card With verified Amazon Account</string>
+    <string name="reward_cost_50k">Reward Cost: 50k M!</string>
+    <string name="reward_cost_100k">Reward Cost: 100k M!</string>
+    <string name="reward_cost_150k">Reward Cost: 150k M!</string>
+    <string name="reward_cost_200k">Reward Cost: 200k M!</string>
+    <string name="reward_cost_250k">Reward Cost: 250k M!</string>
+    <string name="reward_cost_300k">Reward Cost: 300k M!</string>
+    <string name="reward_cost_350k">Reward Cost: 350k M!</string>
+
+    <string name="reward_cost_400k">Reward Cost: 400k M!</string>
+    <string name="reward_cost_450k">Reward Cost: 450k M!</string>
+    <string name="reward_cost_500k">Reward Cost: 500k M!</string>
+    <string name="force_update_title">New version available</string>
+    <string name="force_update_message">Please, update app to new version.</string>
+    <string name="force_update_update">Update</string>
+    <string name="permission">You need to allow access to storage and camera permission</string>
+    <string name="permission_phone">You need to allow access to storage and phone permission</string>
+    <string name="permission_storage">You need to allow access to storage</string>
+    <string name="txt_pair_device">Pair Sim</string>
+
+    <!--Update app-->
+    <string name="btn_pair">Pair</string>
+    <string name="txt_imie_number">IMEI Number :</string>
+    <string name="txt_sim_serial_number">Sim Serial Number :</string>
+    <string name="txt_sim_phone_number">Sim Phone Number :  </string>
+    <string name="edt_hint_sim_phone_number">Enter Phone Number</string>
+    <string name="alert_title_pair_device">Pair your Sim</string>
+
+    <!--Pair device version-->
+    <string name="alert_sim_already_paired">Your sim is already paired with Moolah Mobile.</string>
+    <string name="txt_skip">Skip</string>
+    <string name="alert_sell_mulaah">Want to sell your products in the Moolah Store with Moolah Discounts? Sign up for Moolah pay. For more information email us at payments@moolahmobile.com</string>
+    <string name="alert_sell_mulaah_without_email">Want to sell your products in the Moolah Store with Moolah Discounts? Sign up for Moolah pay. For more information email us at</string>
+    <string name="partner_use_first_10k_to_surge">You are enrolled with Moolah Mobile and the first 10K Moolah Mobile points will pay
+        your phone bill to Surge. After the 10K Moolah Mobile points are given to surge, you will be able to spend in store as normal.</string>
+    <string name="title_alert">Moolah Mobile Store</string>
+    <string name="alert_less_than_10k_mulaah">You need to earn at least 100,000 M! and the first 10K Moolah Mobile points will pay
+        your phone bill to Surge. After the 10K Moolah Mobile points are given to surge, you will be able to spend in store as normal.</string>
+    <string name="alert_edit_profile_title">Moolah Mobile Edit Profile</string>
+    <string name="alert_change_update_field">You must change a field to update your profile information</string>
+
+    <string name="alert_email_not_valid">Please enter a valid email</string>
+    <string name="alert_username_not_valid">Please enter a valid username. Your username must include at least 6 or more characters.</string>
+
+    <!--reward-->
+    <string name="alert_firstname_not_valid">Please enter a valid firstname. Your firstname must include at least 5 or more characters.</string>
+    <string name="alert_lastname_not_valid">Please enter a valid lastname. Your lastname must include at least 5 or more characters.</string>
+    <string name="alert_gender_not_valid">Please enter a valid gender.</string>
+
+    <!--Edit Profile-->
+    <string name="alert_phone_not_valid">Please enter a valid phone. Your phone length must be 10.</string>
+    <string name="alert_login_title">Moolah Mobile Login</string>
+    <string name="alert_login_fail_msg">Your login was not successful. Try again!</string>
+    <string name="alert_login_api_fail_msg">Your login failed.</string>
+    <string name="need_sim_to_pair_device">Need sim card to pair Sim.</string>
+    <string name="alert_paypal_title">Moolah Mobile - PayPal</string>
+    <string name="check_internet_connection">Please check internet connection</string>
+    <string name="btn_buy">Buy</string>
+
+    <!--Login-->
+    <string name="btn_pay">Pay</string>
+    <string name="error_api">Something went wrong. Please try again later.</string>
+    <string name="txt_refill_code_amount">Refill Code Amount :</string>
+    <string name="txt_amount_paid">Amount Paid :</string>
+
+    <!--Moolah Mobile Paypal-->
+    <string name="refill_code_amount_ten">100000</string>
+    <string name="refill_code_amount_twenty">200000</string>
+
+    <!--Wallet-->
+    <string name="refill_code_amount_thirty">300000</string>
+    <string name="refill_code_amount_forty">400000</string>
+    <string name="refill_code_amount_fifty">500000</string>
+    <string name="amount_paid_ten">$10</string>
+    <string name="amount_paid_twenty">$20</string>
+
+    <!--Mullah Point-->
+    <string name="amount_paid_thirty">$30</string>
+    <string name="amount_paid_forty">$40</string>
+    <string name="amount_paid_fifty">$50</string>
+    <string name="txt_under_development">Under Development</string>
+    <string name="open_app_usage_setting">Open Apps with usage access settings</string>
+
+    <string name="last_time_used">"Last time used: "</string>
+    <string name="time_span">"Time span: "</string>
+    <string name="display_order_text">Sort by:</string>
+    <string name="app_name_label">App</string>
+    <string name="last_time_used_label">Last time used</string>
+
+    <string name="usage_time_label">Usage time</string>
+
+    <string name="explanation_access_to_appusage_is_not_enabled">Failed to retrieve app usage
+        statistics. You may need to enable access
+        for this app through Settings > Security > Apps with usage access
+    </string>
+    <string name="title_mulaah_welcome">Moolah Mobile Welcome</string>
+    <string name="alert_title">Moolah Mobile Register</string>
+
+    <string name="alert_body_register">You are now registered to earn Moolah Mobile! Make sure that Moolah Mobile is your default launcher in device settings.</string>
+    <string name="alert_body_login">You are now logged into Moolah Mobile!</string>
+    <string name="email">Email</string>
+    <!-- label for usage time -->
+    <string name="username_register_hint">Username [min 8 characters]</string>
+    <string name="password_hint_register">Password [min. 6 characters]</string>
+
+    <!--Moolah Mobile Welcome-->
+    <string name="phone">Phone</string>
+
+    <!--Alert Dialog-->
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="birthday">Birthday</string>
+
+    <!--Register-->
+    <string name="gender">Gender</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="already_a_user">Already a User? Log In.</string>
+    <string name="already_a_user_without_login">Already a User?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="invite_by_optional">User That Invited (Optional)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register Here!</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="forgot_your_password">Forgot Password?Click Here to Reset.</string>
+    <string name="login_your_account">Log In Your Account</string>
+    <string name="already_have_a_pin">Already have a Pin?</string>
+
+    <!--Login-->
+    <string name="submit">Send</string>
+    <string name="reset_pin_hint">Reset Pin [4 digits]</string>
+    <string name="account_phone_hint">Account Phone</string>
+    <string name="reset">Reset</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!--forgot password-->
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="txt_other">Other</string>
+    <string name="err_email_should_not_blank">Email Address should not be blank.</string>
+    <string name="err_valid_email">Email Address must be valid.</string>
+    <string name="err_user_name_should_not_blank">Username should not be blank.</string>
+    <string name="err_valid_user_name">You must enter a valid unique Username without special characters to continue your registration.</string>
+
+    <!--Gender Dialog-->
+    <string name="err_valid_length_user_name">You must enter a valid unique Username with 6 or more characters to continue your registration.</string>
+    <string name="err_valid_phone_should_not_blank">Phone Number should not be blank.</string>
+    <string name="err_valid_phone_10_digit">You must enter a valid 10-digit phone number and area code [404-123-4567] to continue your registration.</string>
+
+    <!--Error Messages Sign up-->
+    <string name="err_valid_phone_10_digit_continue">You must enter a valid 10-digit phone number and area code [404-123-4567] to continue.</string>
+    <string name="err_first_name_should_not_blank">First Name should not be blank.</string>
+    <string name="err_last_name_should_not_blank">Last Name should not be blank.</string>
+    <string name="err_gender_should_not_blank">You must select a gender to continue your registration.</string>
+    <string name="err_birthday_should_not_blank">You must select a valid birthday to continue your registration.</string>
+    <string name="err_password_should_not_blank">Password should not be blank.</string>
+    <string name="err_conf_password_should_not_blank">Confirm Password should not be blank.</string>
+    <string name="err_password_length">You must enter a valid password with at least 6 character to continue your registration.</string>
+    <string name="err_password_conf_password_not_match">Your password and confirm password do not match try again to continue your registration.</string>
+    <string name="form_is_valid">Form is valid</string>
+    <string name="err_login_email_password">You must enter a valid unique email and password to login to Moolah.</string>
+    <string name="err_pin_should_not_be_blank">Reset Pin should not be blank.</string>
+    <string name="err_password_conf_password_not_match_update_password">Your password and confirm password do not match try again to continue your update Password.</string>
+    <string name="invite_your_contacts_to_join_mulaah">Invite Your Contacts To Moolah Mobile</string>
+    <string name="thanks_for_joining_mulaah_invite_contacts_to_make_10_000_m_instantly">Thanks for joining Moolah Mobile! Invite your contacts to Moolah Mobile via text to make an additional 10,000 M! instantly!</string>
+    <string name="invite">INVITE MY CONTACTS</string>
+    <string name="invite_disclaimer">*Inviting your contacts sends your contacts an invite link to Moolah Mobile.</string>
+
+    <string name="now_loading_contacts">Now Loading Your Contacts…</string>
+
+    <!--Update Password-->
+    <string name="toast_permission">Please find \"Moolah Mobile\" at the bottom of your Phone\'s Security Settings and grant it permission.</string>
+    <string name="grant_success">Grand permission successfully</string>
+
+    <!--Invite Contact-->
+    <string name="not_support">You device not support monitoring</string>
+    <string name="tab_gift_card">Gift Cards</string>
+    <string name="tab_phone">Reloads</string>
+    <string name="tab_customize">Themes</string>
+    <string name="tab_donations">Donate</string>
+
+    <string name="btn_select">Select</string>
+    <string name="gift_cards_loading">Gift cards loading....</string>
+    <string name="inmobi_id">b156d5fee36c4ef7b995cb9a934f764e</string>
+
+    <!--Tab Layout-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <!--GiftBit-->
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_3_title">Great Discounts</string>
+
+
+
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+
+    <string name="play_again">Play Again</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="simple_positions_array">
+        <item>--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="carrier_array">
+        <item>Select Carrier</item>
+    </string-array>
+
+    <string-array name="carrier_price_array">
+        <item>Select Reload Amount</item>
+    </string-array>
+    <string-array name="samsung_known_icons">
+        <item>Calculator</item>
+        <item>Calendar</item>
+        <item>Camera</item>
+        <item>Clock</item>
+        <item>Contacts</item>
+        <item>Email</item>
+        <item>Galaxy Apps</item>
+        <item>Gallery</item>
+        <item>Internet</item>
+        <item>Messages</item>
+        <item>My Files</item>
+        <item>Phone</item>
+        <item>Secure Folder</item>
+        <item>Settings</item>
+        <item>Voice Mail</item>
+    </string-array>
+
+    <string-array name="oranges_theme_known_icons">
+        <item>Messages</item>
+        <item>Calendar</item>
+        <item>Photos</item>
+        <item>Camera</item>
+        <item>Map</item>
+        <item>Google</item>
+        <item>Phone</item>
+        <item>Mail</item>
+        <item>Chrome</item>
+    </string-array>
+    <string-array name="default_ios_app_short_cuts">
+        <item>Messages</item>
+        <item>Messaging</item>
+        <item>Photos</item>
+        <item>Calendar</item>
+        <item>Camera</item>
+        <item>Maps</item>
+        <item>Google</item>
+        <item>Voice Search</item>
+        <item>Contacts</item>
+        <item>Phone</item>
+        <item>Mail</item>
+        <item>Chrome</item>
+        <item>Music</item>
+        <item>Play Music</item>
+    </string-array>
+</resources>

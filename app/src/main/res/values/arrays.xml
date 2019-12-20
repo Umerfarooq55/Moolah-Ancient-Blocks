@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="usage_stats_display_order_types">
+        <item>Usage time</item>
+        <item>Last time used</item>
+        <item>App name</item>
+    </string-array>
+    
+    <string-array name="card_price">
+        <item>Select amount</item>
+        <item>$5 (Reward Cost: 50k M!)</item>
+        <item>$10 (Reward Cost: 100k M!)</item>
+    </string-array>
+</resources>
