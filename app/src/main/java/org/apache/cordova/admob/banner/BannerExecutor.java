@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.moolahmobile.moolahancientblocks.common.SharedPrefsUtils;
+
 import com.google.android.gms.ads.AdView;
 import com.ironsource.mediationsdk.ISBannerSize;
 import com.ironsource.mediationsdk.IronSource;
@@ -18,6 +18,7 @@ import com.ironsource.mediationsdk.logger.IronSourceError;
 import com.ironsource.mediationsdk.sdk.BannerListener;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.moolahmobile.moolahancientblocks.common.SharedPrefsUtils;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
@@ -27,6 +28,7 @@ import org.apache.cordova.admob.AbstractExecutor;
 import org.apache.cordova.admob.AdMob;
 import org.json.JSONException;
 import org.json.JSONObject;
+
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -172,7 +174,7 @@ public class BannerExecutor extends AbstractExecutor {
 
                     @Override
                     public void onBannerAdLoadFailed(IronSourceError ironSourceError) {
-                        Log.v(TAG, "PTAdAdMobBridge  -- ieononBannerAdLoaded"+ironSourceError.getErrorMessage());
+                        Log.v(TAG, "PTAdAdMobBridge  -- ieononBannerAdLoaded"+ironSourceError.getErrorCode());
                     }
 
                     @Override

@@ -57,7 +57,7 @@ INJECTED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T2112
 INJECTED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:2:1-67:12
 INJECTED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:2:1-67:12
 	package
-		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:4:5-31
+		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:4:5-51
 		INJECTED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -143,8 +143,8 @@ MERGED from [com.google.android.gms:play-services-ads-base:18.3.0] C:\Users\9233
 	tools:ignore
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:26:9-48
 	android:icon
-		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:23:9-36
-activity#com.company.game.MainActivity
+		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:23:9-43
+activity#com.moolahmobile.moolahancientblocks.MainActivity
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:27:9-36:20
 	android:label
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:30:13-50
@@ -157,19 +157,19 @@ ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z
 	android:theme
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:32:13-72
 	android:name
-		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:28:13-40
-activity#com.company.game.IntroActivity
+		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:28:13-77
+activity#com.moolahmobile.moolahancientblocks.IntroActivity
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:37:9-39:20
 	android:theme
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:37:19-48
-activity#com.company.game.WelcomeActivity
+		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:37:19-84
+activity#com.moolahmobile.moolahancientblocks.WelcomeActivity
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:40:9-48:20
 	android:theme
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:41:13-56
 	android:name
-		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:40:19-50
+		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:40:19-86
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
@@ -180,7 +180,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:46:27-74
-activity#com.company.game.LoginActivity
+activity#com.moolahmobile.moolahancientblocks.LoginActivity
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:49:9-52:69
 	android:screenOrientation
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:50:13-49
@@ -189,8 +189,8 @@ ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z
 	android:theme
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:51:13-56
 	android:name
-		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:49:19-48
-activity#com.company.game.RegisterActivity
+		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:49:19-84
+activity#com.moolahmobile.moolahancientblocks.RegisterActivity
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:53:9-56:70
 	android:screenOrientation
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:54:13-49
@@ -199,7 +199,7 @@ ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z
 	android:theme
 		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:53:19-51
+		ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:53:19-87
 activity#com.google.android.gms.ads.AdActivity
 ADDED from C:\Users\92333\Downloads\moolah_games_updated_Dec_18-20191218T211244Z-001\moolah_games_updated_Dec_18\puzzle_block\android_puzzle_block\app\src\main\AndroidManifest.xml:57:9-60:64
 MERGED from [com.google.android.gms:play-services-ads-lite:18.3.0] C:\Users\92333\.gradle\caches\transforms-2\files-2.1\f149239fa0f6ff2332f3e278bc109bfb\AndroidManifest.xml:29:9-33:64
