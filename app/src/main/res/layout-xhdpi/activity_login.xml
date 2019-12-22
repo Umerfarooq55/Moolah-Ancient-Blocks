@@ -26,23 +26,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_55sdp"
                 android:layout_gravity="center"
-                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:clickable="true"
-
                 android:focusable="true"
                 android:fontFamily="@font/roboto"
                 android:padding="@dimen/_8sdp"
                 android:text="Login"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
-                android:textSize="40sp"
+                android:textSize="32sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/btn_login"
                 app:layout_constraintStart_toStartOf="@+id/btn_login"
                 app:layout_constraintTop_toBottomOf="@+id/btn_login"/>
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="@dimen/_30sdp"
+                android:layout_height="@dimen/_35sdp"
 
                 android:layout_gravity="center"
                 android:clickable="true"
@@ -57,7 +56,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/btn_login" />
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_52sdp"
+                android:layout_height="@dimen/_50sdp"
                 android:layout_marginLeft="@dimen/_30sdp"
                 android:layout_marginRight="@dimen/_30sdp"
                 android:background="@drawable/btnbackground">
@@ -68,8 +67,8 @@
 
                     <ImageView
                         android:id="@+id/email"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="@dimen/_15sdp"
                         android:src="@drawable/ic_email_black_24dp" />
@@ -77,17 +76,17 @@
                     <TextView
                         android:id="@+id/textemail"
                         android:layout_width="wrap_content"
-                        android:layout_height="@dimen/_32sdp"
-                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
                         android:layout_toRightOf="@+id/email"
                         android:clickable="true"
                         android:focusable="true"
                         android:fontFamily="@font/roboto"
-                        android:padding="@dimen/_8sdp"
                         android:text="Email"
                         android:textAlignment="center"
                         android:textColor="@android:color/white"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/input_layout_email"
@@ -95,8 +94,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_47sdp"
                         android:layout_marginLeft="@dimen/_40sdp"
-
-                        android:padding="@dimen/_4sdp"
                         android:theme="@style/RegisterEditTextHint">
 
                         <com.google.android.material.textfield.TextInputEditText
@@ -121,9 +118,9 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_48sdp"
+                android:layout_height="@dimen/_50sdp"
                 android:layout_marginLeft="@dimen/_30sdp"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:layout_marginRight="@dimen/_30sdp"
                 android:background="@drawable/btnbackground">
 
@@ -133,8 +130,8 @@
 
                     <ImageView
                         android:id="@+id/openlock"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="@dimen/_15sdp"
                         android:src="@drawable/ic_lock_open_black_24dp" />
@@ -142,25 +139,27 @@
                     <TextView
                         android:id="@+id/textepasword"
                         android:layout_width="wrap_content"
-                        android:layout_height="@dimen/_32sdp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_toRightOf="@+id/openlock"
                         android:clickable="true"
                         android:focusable="true"
                         android:fontFamily="@font/roboto"
-                        android:padding="@dimen/_8sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
                         android:text="Password"
                         android:textAlignment="center"
                         android:textColor="@android:color/white"
-                        android:textSize="15sp" />
+                        android:textSize="12sp" />
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/input_layout_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+
                         android:layout_marginStart="@dimen/_47sdp"
                         android:layout_marginLeft="@dimen/_40sdp"
 
-                        android:padding="@dimen/_4sdp"
+
                         android:theme="@style/RegisterEditTextHint"
                         >
 
@@ -191,7 +190,7 @@
                 android:focusable="true"
                 android:fontFamily="@font/roboto"
                 android:padding="@dimen/_8sdp"
-                android:text="@string/forgot_your_password"
+                android:text="Forgot Password ? Click Here to Reset."
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="15sp"
@@ -235,8 +234,8 @@
 
                     <ImageView
 
-                        android:layout_width="130dp"
-                        android:layout_height="130dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginLeft="@dimen/_15sdp"
                         android:layout_marginRight="@dimen/_18sdp"
@@ -265,11 +264,10 @@
                         android:clickable="true"
                         android:focusable="true"
                         android:fontFamily="@font/roboto"
-                        android:padding="@dimen/_8sdp"
                         android:text="Register "
-                        android:textAlignment="center"
+
                         android:textColor="@color/new_mulaah_green"
-                        android:textSize="25sp"
+                        android:textSize="20sp"
                         app:layout_constraintEnd_toEndOf="@+id/txtRegister"
                         app:layout_constraintStart_toStartOf="@+id/txtRegister"
                         app:layout_constraintTop_toBottomOf="@+id/txtRegister" />
