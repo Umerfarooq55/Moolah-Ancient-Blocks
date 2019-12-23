@@ -236,6 +236,7 @@
 
                         android:layout_width="80dp"
                         android:layout_height="80dp"
+                        android:layout_marginTop="@dimen/_10sdp"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginLeft="@dimen/_15sdp"
                         android:layout_marginRight="@dimen/_18sdp"
@@ -246,9 +247,10 @@
                         android:layout_gravity="center_horizontal"
                         android:clickable="true"
                         android:focusable="true"
+
                         android:fontFamily="@font/roboto"
                         android:padding="@dimen/_8sdp"
-                        android:text="The Mobile Rewards System. \n Earn Rewards for using our custom /n Home Screens,Games and Apps."
+                        android:text="Earn Moolah Rewards While You Play"
                         android:textAlignment="center"
                         android:textColor="@color/new_mulaah_green"
                         android:textSize="15sp"
@@ -258,6 +260,7 @@
 
                     <TextView
                         android:id="@+id/register"
+
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
